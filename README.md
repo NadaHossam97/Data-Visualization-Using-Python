@@ -51,6 +51,6 @@ The Adult dataset contains demographic information about individuals from the 19
 
 6. **Pair Plot**:
     - **Pairplot of Age, Hours Per Week, and Education Number**: Shows pairwise relationships colored by income.
-    ![Pairplot of Age, Hours Per Week, and Education Number](Graphs/pairplot.pngpng)
+    ![Pairplot of Age, Hours Per Week, and Education Number](Graphs/pairplot.png)
 
 
