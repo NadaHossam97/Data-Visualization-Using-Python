@@ -43,7 +43,7 @@ The Adult dataset contains demographic information about individuals from the 19
 
 4. **Correlation Matrix**:
     - **Correlation Heatmap**: Displays the correlation coefficients between numerical variables.
-    ![Correlation Heatmap](Graphs/Correlation_Heatmap.png)
+    ![Correlation Heatmap](Graphs/correlation_heatmap.png)
 
 5. **Count Plot**:
     - **Workclass vs Income**: Compares income distribution across different work classes.
