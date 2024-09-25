@@ -10,6 +10,9 @@ The Adult dataset contains demographic information about individuals from the 19
 
 ## Project Structure
 
+- `adult.csv`: The dataset used.
+- `data_visualization_script.py`: Python script containing the code to generate visualizations.
+- `Graphs/`: Directory containing saved plot images.
 
 ## Libraries Used
 
@@ -21,36 +24,35 @@ The Adult dataset contains demographic information about individuals from the 19
 ## Visualizations Created
 
 1. **Bar Plots**:
-    - **Distribution of Workclass**: Shows the count of individuals across different work classes.
+    - **Distribution of Workclass**: This plot shows the count of individuals across different work classes. It helps in understanding which work class is more prevalent in the dataset. Most individuals belong to the "Private" work class.
     ![Distribution of Workclass](Graphs/workclass_distribution.png)
 
-    - **Distribution of Education**: Displays the count of individuals based on their education levels.
+    - **Distribution of Education**: This plot displays the distribution of education levels. It reveals that most individuals have a high school diploma or some college education.
     ![Distribution of Education](Graphs/education_distribution.png)
 
-
 2. **Histograms**:
-    - **Distribution of Age**: Illustrates the age distribution of individuals in the dataset.
+    - **Distribution of Age**: This histogram illustrates the age distribution, showing that the majority of individuals are between 20 and 50 years old, with a peak around 35.
     ![Distribution of Age](Graphs/age_distribution.png)
-    - **Distribution of Hours Per Week**: Depicts the distribution of hours worked per week.
+
+    - **Distribution of Hours Per Week**: This plot depicts the distribution of hours worked per week. Most individuals work between 35 and 50 hours per week, with a noticeable spike at 40 hours.
     ![Distribution of Hours Per Week](Graphs/hours_per_week_distribution.png)
 
 3. **Box Plots**:
-    - **Boxplot of Age**: Visualizes the spread and outliers in the age distribution.
+    - **Boxplot of Age**: The box plot shows the spread of age, including median age, quartiles, and any outliers. This plot provides insights into potential outliers such as very young or old individuals.
     ![Boxplot of Age](Graphs/age_boxplot.png)
-    - **Boxplot of Hours Per Week**: Shows the distribution of hours worked with outlier points.
-        ![Boxplot of Hours Per Week](Graphs/hours_per_week_boxplot.png)
 
+    - **Boxplot of Hours Per Week**: This box plot demonstrates the distribution of hours worked per week and highlights the spread of work hours along with any outliers working significantly more or fewer hours.
+    ![Boxplot of Hours Per Week](Graphs/hours_per_week_boxplot.png)
 
 4. **Correlation Matrix**:
-    - **Correlation Heatmap**: Displays the correlation coefficients between numerical variables.
+    - **Correlation Heatmap**: The heatmap shows the correlations between numerical variables such as age, education-num, hours-per-week, and income-related attributes. For example, there is a moderate positive correlation between education level and income.
     ![Correlation Heatmap](Graphs/correlation_heatmap.png)
 
 5. **Count Plot**:
-    - **Workclass vs Income**: Compares income distribution across different work classes.
+    - **Workclass vs Income**: This count plot compares income levels (above or below $50K) across different work classes. It shows that individuals from the "Private" work class are more likely to have lower income, while individuals from "Self-employed" or "Government" work classes are more likely to have higher income.
     ![Workclass vs Income](Graphs/workclass_vs_income.png)
 
 6. **Pair Plot**:
-    - **Pairplot of Age, Hours Per Week, and Education Number**: Shows pairwise relationships colored by income.
+    - **Pairplot of Age, Hours Per Week, and Education Number**: The pair plot provides a visual representation of the relationships between these variables, with color-coded income levels. It shows how these variables interact, and the clusters formed can indicate trends between income and education or work hours.
     ![Pairplot of Age, Hours Per Week, and Education Number](Graphs/pairplot.png)
-
 
